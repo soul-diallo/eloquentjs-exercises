@@ -16,5 +16,7 @@ let isEven = (number)=>{
     else if (number > 1){
         return isEven(number - 2)
     }
+    else return "Ce nombre n'est pas positif!"
 }
 
+console.log(isEven(-1))
