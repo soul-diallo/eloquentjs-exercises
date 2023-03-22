@@ -5,7 +5,7 @@ The second, reverseArrayInPlace, does what the reverse method does: it modifies 
 Neither may use the standard reverse method. */
 
 let reverseArray = (tableau) => {
-    revArray = [];
+    let revArray = [];
     for (let i = tableau.length+1; i>=0; i--){
         revArray.push(i);
     }
